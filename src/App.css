@@ -1,0 +1,6 @@
+/* Component-specific tweaks (kept minimal). */
+section h2 { margin-top: 0; }
+select { width: 100%; }
+.tabs { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; }
+.tabbtn { cursor: pointer; padding: 8px 12px; border-radius: 10px; border: 1px solid var(--border); background: rgba(255,255,255,0.04); }
+.tabbtn.active { border-color: var(--accent); background: rgba(106,169,255,0.12); }
